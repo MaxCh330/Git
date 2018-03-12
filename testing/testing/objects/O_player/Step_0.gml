@@ -1,9 +1,9 @@
 if keyboard_check(ord("A"))
 {
-	hspeed_=-5;
+	hspeed_=-8;
 }else if keyboard_check(ord("D"))
 {
-	hspeed_=5;
+	hspeed_=12;
 }else
 {
 	hspeed_=0;
@@ -16,7 +16,7 @@ else
 {
 	if keyboard_check_pressed(vk_space)
     {
-	vspeed_=-10;
+	vspeed_=-30;
     } 
 }
 

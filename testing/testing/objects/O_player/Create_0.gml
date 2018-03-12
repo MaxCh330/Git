@@ -1,3 +1,3 @@
 vspeed_=0;
 hspeed_=0;
-gravity_=3;
+gravity_=5;
