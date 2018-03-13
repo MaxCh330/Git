@@ -1,28 +1,18 @@
 {
-    "id": "612d7ee8-8b90-4f9f-bd2b-9021a718bd9b",
+    "id": "5ddbb2db-7a8a-4426-a054-798bf03b4a18",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "O_player",
+    "name": "Shooter",
     "eventList": [
         {
-            "id": "00b16f2a-0e5e-47e7-a1bd-41872985cb92",
+            "id": "de8e11dc-364a-477e-a333-6c83762c4958",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "612d7ee8-8b90-4f9f-bd2b-9021a718bd9b"
-        },
-        {
-            "id": "203ef8d0-5d3e-4018-b54c-66c8492f7713",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "612d7ee8-8b90-4f9f-bd2b-9021a718bd9b"
+            "enumb": 37,
+            "eventtype": 9,
+            "m_owner": "5ddbb2db-7a8a-4426-a054-798bf03b4a18"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "20d858d8-188f-4ec8-95fc-29c146e32594",
+    "spriteId": "4842318e-ead1-4086-b59c-b6d9f6d0805a",
     "visible": true
 }

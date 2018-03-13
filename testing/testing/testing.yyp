@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "20d858d8-188f-4ec8-95fc-29c146e32594",
+            "Value": {
+                "id": "44f95160-b3b8-4de4-bbc5-3ec35c8f4b52",
+                "resourcePath": "sprites\\S_player_idle\\S_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2cea1324-6860-4fa1-8dde-fcc8ac942405",
             "Value": {
                 "id": "974d0b72-ae1d-4039-ad1e-5a42b47471d9",
@@ -111,11 +119,27 @@
             }
         },
         {
+            "Key": "4842318e-ead1-4086-b59c-b6d9f6d0805a",
+            "Value": {
+                "id": "04dfefc6-15c7-4154-8aad-9dee4105a446",
+                "resourcePath": "sprites\\S_player_shooter\\S_player_shooter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b770596-3692-4078-8057-8791b457bad7",
             "Value": {
                 "id": "7c4c49b3-63af-4c35-8597-f6bd1e69eea2",
                 "resourcePath": "views\\4b770596-3692-4078-8057-8791b457bad7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5ddbb2db-7a8a-4426-a054-798bf03b4a18",
+            "Value": {
+                "id": "4b1528a3-bd87-4a3a-a5e1-ce8de8a8396b",
+                "resourcePath": "objects\\Shooter\\Shooter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -231,6 +255,14 @@
             }
         },
         {
+            "Key": "b32e72c3-161a-420e-b077-0a8247c581ca",
+            "Value": {
+                "id": "776ef3f5-dd0a-4ea3-8057-21371a961b31",
+                "resourcePath": "sprites\\S_player_shoot\\S_player_shoot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b649bf5b-7449-4004-9189-6042afcf1aab",
             "Value": {
                 "id": "4c95968a-443a-482f-b69e-9f2bdb6cc431",
@@ -271,6 +303,14 @@
             }
         },
         {
+            "Key": "d6157ee3-0b5b-437b-a5be-5f447e7937b2",
+            "Value": {
+                "id": "66b2e8a9-ba80-4d11-a0ce-c493a3b63446",
+                "resourcePath": "sprites\\S_player_walk\\S_player_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d7bbf329-4f5d-4563-b37e-c865f0acbfcf",
             "Value": {
                 "id": "2ec0c2f8-6425-4703-b28c-4cebc2dd5a32",
@@ -300,6 +340,14 @@
                 "id": "d82fc899-649f-4024-9464-8fceed500d75",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "f95cf4ca-e551-44d4-a576-974b7e238499",
+            "Value": {
+                "id": "034aabdc-d90a-4a48-a27c-4cb3e730b3da",
+                "resourcePath": "sprites\\S_bullet\\S_bullet.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

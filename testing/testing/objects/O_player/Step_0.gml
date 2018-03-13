@@ -1,14 +1,19 @@
 if keyboard_check(ord("A"))
 {
+	image_xscale=-1;
+	sprite_index=S_player_walk;
 	hspeed_=-8;
 }else if keyboard_check(ord("D"))
 {
+	image_xscale=1;
+	sprite_index=S_player_walk;
 	hspeed_=12;
 }else
 {
+	sprite_index=S_player_idle;
 	hspeed_=0;
 }
-if !place_meeting(x, y+1, O_wall)
+if !place_meeting(x, y+5, O_wall)
 {
 	vspeed_ =vspeed_+gravity_;
 }
