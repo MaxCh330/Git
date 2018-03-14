@@ -2,15 +2,16 @@ if keyboard_check(ord("A"))
 {
 	image_xscale=-1;
 	sprite_index=S_player_walk;
-	hspeed_=-8;
+	hspeed_=-5;
 }else if keyboard_check(ord("D"))
 {
 	image_xscale=1;
 	sprite_index=S_player_walk;
-	hspeed_=12;
+	hspeed_=5;
 }else
 {
-	sprite_index=S_player_idle;
+	
+	sprite_index=S_player_idle_side;
 	hspeed_=0;
 }
 if !place_meeting(x, y+5, O_wall)
@@ -46,3 +47,7 @@ if place_meeting(x,y+vspeed_,O_wall)
 }
 
 y=y+vspeed_;
+if vspeed_>3
+{
+	sprite_index=S_player_drop;
+}
