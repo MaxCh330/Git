@@ -1,19 +1,55 @@
+
 if keyboard_check(ord("A"))
 {
 	image_xscale=-1;
-	sprite_index=S_player_walk;
-	hspeed_=-5;
+	
+	if keyboard_check_pressed(vk_lshift)
+	{
+		sprite_index=S_player_run;
+	}
+	else if keyboard_check_released(vk_lshift)
+	{
+	    sprite_index=S_player_walk;
+	}
+	else
+	{
+		sprite_index=S_player_walk;
+	}
+	hspeed_=-running_hspeed_;
 }else if keyboard_check(ord("D"))
 {
 	image_xscale=1;
 	sprite_index=S_player_walk;
-	hspeed_=5;
+	if keyboard_check_pressed(vk_lshift)
+	{
+		sprite_index=S_player_run;
+	}
+	else if keyboard_check_released(vk_lshift)
+	{
+	    sprite_index=S_player_walk;
+	}
+	else
+	{
+		sprite_index=S_player_walk;
+	}
+	
+	hspeed_=running_hspeed_;
 }else
 {
-	
 	sprite_index=S_player_idle_side;
 	hspeed_=0;
 }
+if keyboard_check_pressed(vk_lshift)
+{
+	
+	running_hspeed_=9;
+}else if keyboard_check_released(vk_lshift)
+{
+	running_hspeed_=5;
+}
+
+
+
 if !place_meeting(x, y+5, O_wall)
 {
 	vspeed_ =vspeed_+gravity_;
@@ -26,6 +62,7 @@ else
 	vspeed_=-30;
     } 
 }
+
 
 if place_meeting(x+hspeed_,y,O_wall)
 {
