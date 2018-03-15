@@ -22,6 +22,7 @@ else
 {
 	if keyboard_check_pressed(vk_space)
     {
+	sprite_index=S_player_jump_in_air;
 	vspeed_=-30;
     } 
 }
@@ -50,4 +51,8 @@ y=y+vspeed_;
 if vspeed_>3
 {
 	sprite_index=S_player_drop;
+}
+if vspeed_<-10
+{
+	sprite_index=S_player_jump_in_air;
 }

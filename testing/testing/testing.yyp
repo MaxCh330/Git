@@ -191,11 +191,27 @@
             }
         },
         {
+            "Key": "75402a2c-e3a4-417a-ba2e-bd7f86d1c73d",
+            "Value": {
+                "id": "d581200f-86a7-4d0a-9d17-2763e6dfc527",
+                "resourcePath": "sprites\\S_player_jump_in_air\\S_player_jump_in_air.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "4f2a7740-c58d-466d-8434-45afdca78b69",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "7b966d04-f4ad-4774-988d-81ec6be6326e",
+            "Value": {
+                "id": "42143c6e-b1a3-499d-90c2-90fea68f0493",
+                "resourcePath": "sprites\\S_player_run\\S_player_run.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
