@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0e6b4589-5df6-45cc-b58c-5d3ce870b4ef",
+            "Value": {
+                "id": "ba4d45ae-83aa-481a-95bc-810b42340c9e",
+                "resourcePath": "objects\\O_playerShadow\\O_playerShadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f04069b-3211-47d6-993c-9be6322f8b7c",
             "Value": {
                 "id": "32f67a82-26d5-4f41-87b4-a27b5b05ba9e",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "2f429a15-27b6-40b6-b1c8-110733bdcb01",
+            "Value": {
+                "id": "83191d13-7dda-4d34-a909-44f561b391a3",
+                "resourcePath": "sprites\\S_player_rush\\S_player_rush.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "316c20a8-4e11-4d0d-820d-694e74b289df",
             "Value": {
                 "id": "9f71e48a-7b23-4bda-8e70-2f217caadd1a",
@@ -124,6 +140,14 @@
                 "id": "c4c08da1-b039-43fb-a1eb-ff1a089341b5",
                 "resourcePath": "views\\3b1c7b61-0d4b-40e8-bd9a-865a61a1b654.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "435a9052-e7e3-4943-8048-06f13ec90a97",
+            "Value": {
+                "id": "9cd41b3c-3259-4d5d-9bf8-c16bd4f81e4b",
+                "resourcePath": "sprites\\S_player_rushEffect\\S_player_rushEffect.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -156,6 +180,14 @@
                 "id": "4b1528a3-bd87-4a3a-a5e1-ce8de8a8396b",
                 "resourcePath": "objects\\Shooter\\Shooter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5fcbc2af-2ef7-4733-a804-582ecd8f80fb",
+            "Value": {
+                "id": "8c1a2fb3-3845-498c-b2e9-cf6cbcce80ed",
+                "resourcePath": "sprites\\S_nothing\\S_nothing.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -300,6 +332,14 @@
                 "id": "732e80ed-8ba6-466f-90a3-280174348fff",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "abf2768d-ef59-4489-a3ae-bf9978885d7c",
+            "Value": {
+                "id": "330c5545-d31f-4fc3-b979-9698231e751f",
+                "resourcePath": "objects\\O_rushEffect\\O_rushEffect.yy",
+                "resourceType": "GMObject"
             }
         },
         {

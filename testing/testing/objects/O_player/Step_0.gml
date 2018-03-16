@@ -1,53 +1,42 @@
-
+//movement
 if keyboard_check(ord("A"))
 {
 	image_xscale=-1;
-	
-	if keyboard_check_pressed(vk_lshift)
-	{
-		sprite_index=S_player_run;
-	}
-	else if keyboard_check_released(vk_lshift)
-	{
-	    sprite_index=S_player_walk;
-	}
-	else
-	{
-		sprite_index=S_player_walk;
-	}
+    sprite_index=S_player_walk;
+	rush=-10;
 	hspeed_=-running_hspeed_;
 }else if keyboard_check(ord("D"))
 {
 	image_xscale=1;
 	sprite_index=S_player_walk;
-	if keyboard_check_pressed(vk_lshift)
-	{
-		sprite_index=S_player_run;
-	}
-	else if keyboard_check_released(vk_lshift)
-	{
-	    sprite_index=S_player_walk;
-	}
-	else
-	{
-		sprite_index=S_player_walk;
-	}
-	
+	rush=10;
 	hspeed_=running_hspeed_;
 }else
 {
 	sprite_index=S_player_idle_side;
 	hspeed_=0;
 }
-if keyboard_check_pressed(vk_lshift)
+if keyboard_check(vk_space)//Running
 {
 	
-	running_hspeed_=9;
-}else if keyboard_check_released(vk_lshift)
+	running_hspeed_=20;
+	
+}else
 {
+	
 	running_hspeed_=5;
 }
-
+if hspeed_=20||hspeed_=-20
+{
+	sprite_index=S_player_run;
+	instance_create_layer(O_player.x,O_player.y,"Instances",O_playerShadow);
+}
+//rush
+if keyboard_check(ord("F"))
+{
+	sprite_index=S_player_rush;
+	hspeed_=running_hspeed_*rush;
+}
 
 
 if !place_meeting(x, y+5, O_wall)
@@ -56,14 +45,14 @@ if !place_meeting(x, y+5, O_wall)
 }
 else 
 {
-	if keyboard_check_pressed(vk_space)
+	if keyboard_check_pressed(ord("W"))
     {
 	sprite_index=S_player_jump_in_air;
 	vspeed_=-30;
     } 
 }
 
-
+//blockX
 if place_meeting(x+hspeed_,y,O_wall)
 {
 	while !place_meeting(x+sign(hspeed_),y,O_wall)
@@ -74,7 +63,7 @@ if place_meeting(x+hspeed_,y,O_wall)
 }
 x=x+hspeed_;
 
-
+//blockY
 if place_meeting(x,y+vspeed_,O_wall)
 {
 	while !place_meeting(x,y+sign(vspeed_),O_wall)
@@ -85,6 +74,7 @@ if place_meeting(x,y+vspeed_,O_wall)
 }
 
 y=y+vspeed_;
+//droping
 if vspeed_>3
 {
 	sprite_index=S_player_drop;
