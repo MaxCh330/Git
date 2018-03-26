@@ -2,7 +2,7 @@
     "id": "8d5b69c1-5da9-4ecd-b603-53118a18749e",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite0",
+    "name": "S_player",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -10,7 +10,7 @@
     "bbox_left": 0,
     "bbox_right": 19,
     "bbox_top": 0,
-    "bboxmode": 0,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
@@ -120,7 +120,7 @@
             "visible": true
         }
     ],
-    "origin": 7,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 20,
     "playbackSpeedType": 0,
@@ -132,5 +132,5 @@
     "type": 0,
     "width": 20,
     "xorig": 10,
-    "yorig": 19
+    "yorig": 10
 }

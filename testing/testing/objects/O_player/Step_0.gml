@@ -1,15 +1,16 @@
+
 //movement
 if keyboard_check(ord("A"))
 {
 	image_xscale=-1;
     sprite_index=S_player_walk;
-	rush=-10;
+	rush=-100;
 	hspeed_=-running_hspeed_;
 }else if keyboard_check(ord("D"))
 {
 	image_xscale=1;
 	sprite_index=S_player_walk;
-	rush=10;
+	rush=100;
 	hspeed_=running_hspeed_;
 }else
 {
@@ -32,10 +33,12 @@ if hspeed_=20||hspeed_=-20
 	instance_create_layer(O_player.x,O_player.y,"Instances",O_playerShadow);
 }
 //rush
-if keyboard_check(ord("F"))
+if keyboard_check(ord("F")&&rush_act=true)
 {
+   
 	sprite_index=S_player_rush;
-	hspeed_=running_hspeed_*rush;
+	hspeed_=rush;
+	instance_create_layer(O_player.x,O_player.y,"Instances",O_playerShadow);
 }
 
 

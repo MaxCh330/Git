@@ -1,0 +1,1 @@
+shoot_able=1;

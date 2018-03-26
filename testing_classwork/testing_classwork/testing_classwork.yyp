@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1d30ec25-02e6-45c6-a7ea-e8232ed481f1",
+            "Value": {
+                "id": "9fbb9de7-0681-47fd-b1c4-4b94761e18e1",
+                "resourcePath": "sprites\\S_destory\\S_destory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36b359a8-f54a-4ca5-817a-cc3d9d45089d",
             "Value": {
                 "id": "0cbe3f71-912c-416a-b7a9-cfc9809d633e",
@@ -95,11 +103,35 @@
             }
         },
         {
+            "Key": "5f52d035-3adb-4f52-910a-c64dac9bbd92",
+            "Value": {
+                "id": "e5ec046b-513b-4aad-b775-1cb858a137db",
+                "resourcePath": "sprites\\S_bullet\\S_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5fa96952-5ee5-40b4-901d-1b7d78b72b5c",
+            "Value": {
+                "id": "fb3514c6-bffe-4564-80f5-37beddf0f1de",
+                "resourcePath": "sprites\\S_enemyDead\\S_enemyDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68821926-0f0c-440e-b182-13d13d6b5d1b",
             "Value": {
                 "id": "65e3b63c-724d-4139-910f-e72bda77e751",
                 "resourcePath": "views\\68821926-0f0c-440e-b182-13d13d6b5d1b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "693af485-0ba7-448a-8a0b-fb6827775bc7",
+            "Value": {
+                "id": "57e7c34b-bd45-41b3-8514-c8ffd29917d9",
+                "resourcePath": "objects\\object6\\object6.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -162,7 +194,7 @@
             "Key": "86017c1a-09b7-44c7-a42a-248ca448e966",
             "Value": {
                 "id": "5d9469ce-10e3-4336-b7a7-3f53010f652c",
-                "resourcePath": "objects\\object0\\object0.yy",
+                "resourcePath": "objects\\O_player\\O_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -178,7 +210,7 @@
             "Key": "8d5b69c1-5da9-4ecd-b603-53118a18749e",
             "Value": {
                 "id": "0472d301-e162-4eb4-8e24-e2becca31287",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\\S_player\\S_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -188,6 +220,14 @@
                 "id": "a19338ca-1cd3-41d4-91f9-bd55bc5443fe",
                 "resourcePath": "views\\95166abc-5753-4e2a-9f4e-52d6c8d593db.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a0fc6f24-bb65-4685-a7e3-e78ee4eeed4f",
+            "Value": {
+                "id": "104cbb73-41c7-4371-bad6-2792fb6b8306",
+                "resourcePath": "objects\\Wall\\Wall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -210,7 +250,7 @@
             "Key": "ba4a19e6-e184-430c-b49b-dce92b433907",
             "Value": {
                 "id": "4dfeca56-aafb-4482-892f-70ecc38396d2",
-                "resourcePath": "objects\\object1\\object1.yy",
+                "resourcePath": "objects\\O_enemy\\O_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -228,6 +268,14 @@
                 "id": "2585fe6e-00bb-4884-8781-56c11b79810f",
                 "resourcePath": "views\\c283f7f9-521e-4e6f-8b5d-bf96a656681d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb0cd5bd-392d-4d19-864a-756569f2bc4d",
+            "Value": {
+                "id": "55bacd78-d345-4f70-b3e4-6d28cf39d037",
+                "resourcePath": "objects\\O_spwan\\O_spwan.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -252,6 +300,22 @@
                 "id": "dea6cc10-7601-494e-b9a8-1bd6f2c40fa3",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e7ec586b-54f0-4680-94af-e26ac773be0d",
+            "Value": {
+                "id": "95929700-7496-4522-b122-fc07ecad1db3",
+                "resourcePath": "sprites\\S_wall\\S_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e84950a2-7c88-484d-9a45-bd7f6e73850d",
+            "Value": {
+                "id": "8a327d28-be4d-409f-9a7a-22d7718a9e77",
+                "resourcePath": "objects\\O_bullet\\O_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
