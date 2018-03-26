@@ -1,0 +1,1 @@
+rush_act=true;
