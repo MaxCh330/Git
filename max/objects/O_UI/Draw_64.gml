@@ -1,0 +1,1 @@
+draw_healthbar(39,720,99,730,O_player.rush_act,c_white,c_white,c_black,0,c_white,c_black);
